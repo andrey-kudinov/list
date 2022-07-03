@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+  gap: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card {
+  min-height: 5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.header {
+  padding: .5rem;
+  background: pink;
+}
+
+h2 {
+  margin: 0;
+  color: white;
+  font-size: 1rem;
+}
